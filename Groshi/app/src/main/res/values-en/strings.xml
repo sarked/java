@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Mani</string>
+    <string name="title_activity_main2">Settings</string>
+    <string name="how_to_exit">Click BACK again to exit</string>
+    <string name="sound_on">Sound ON</string>
+    <string name="sound_off">Sound OFF</string>
+    <string name="valute_snackbar_txt">"Valute: "</string>
+    <string name="valute_snackbar_btn">Change</string>
+    <string name="last_update">"Last update "</string>
+    <string name="reset">Reset</string>
+    <string name="auto_update">Automatically updated</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="move_valute">Move to list:</string>
+    <string name="to_first_pos">To the top</string>
+    <string name="to_last_pos">To the end</string>
+    <string name="about_app">About app</string>
+    <string name="rate">★ Rate</string>
+    <string name="course_update">Exchange rates was updated</string>
+    <string name="saved">Saved</string>
+    <string name="are_you_shure">Are you shure?</string>
+    <string name="was_deleted">" was deleted."</string>
+    <string name="valute_icon">Current icon</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Мани</string>
+    <string name="title_activity_main2">Настройки</string>
+    <string name="how_to_exit">Нажмите ещё раз для выхода</string>
+    <string name="sound_on">Звук ВКЛ</string>
+    <string name="sound_off">Звук ВЫКЛ</string>
+    <string name="valute_snackbar_txt">"Валюта: "</string>
+    <string name="valute_snackbar_btn">Сменить</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="close">Закрыть</string>
+    <string name="auto_update">Обновляется автоматически</string>
+    <string name="move_valute">Переместить в списке валют:</string>
+    <string name="to_first_pos">В начало списка</string>
+    <string name="to_last_pos">В конец списка</string>
+    <string name="reset">Сброс</string>
+    <string name="last_update">"Курс обновлен "</string>
+    <string name="about_app">О приложении</string>
+    <string name="rate">★ Оценить</string>
+    <string name="course_update">Курс валют обновлен</string>
+    <string name="saved">Сохранено</string>
+    <string name="are_you_shure">Вы уверены?</string>
+    <string name="was_deleted">" была успешно удалена."</string>
+    <string name="del_text_part1">"После нажатия кнопки «Удалить» валюта "</string>
+    <string name="del_text_part2">" будет полностью удалена из приложения. Вернуть эту валюту или внести новую в список всех валют можно с помощью кнопки "</string>
+    <string name="add_valute_btn">Добавить валюту</string>
+    <string name="input_err">Проверьте заполненные поля</string>
+    <string name="valute_icon">Изображение для валюты</string>
+    <string name="double_err">Валюта с таким названием уже существует</string>
+</resources>

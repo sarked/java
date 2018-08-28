@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Текстовка-спойлер"
+        android:id="@+id/list_item_spoiler"
+        android:textColor="@color/colorZhovtiy"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="▲"
+            android:focusable="false"
+            android:id="@+id/up_btn"/>
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:text="▼"
+            android:focusable="false"
+            android:id="@+id/down_btn"/>
+        <LinearLayout
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="UAH"
+                android:textColor="@color/colorZhovtiy"
+                android:id="@+id/list_item_txt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Великобритания"
+                android:textColor="@color/colorZhovtiy"
+                android:id="@+id/list_item_country"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/list_item_img"
+            android:src="@drawable/uah"/>
+        <TextView
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
